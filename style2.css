@@ -2,13 +2,21 @@
 #container {
     display: flex; /*cote à cote*/
     flex-direction: row;
-    flex-wrap: wrap; /*pas de retour à la ligne*/
     justify-content: space-around;
     width: 350px;
     height: 150px;
 }
 
 h4{
-    font-size: 23px;
-    color: azure;
+    font-size: 33px;
+    color: grey;
 }
+.strong{
+    font-size: 12px;  
+}
+p
+{
+    display: inline;
+}
+
+/*partie nav*/
