@@ -1,0 +1,14 @@
+/* partie container les 3 photos*/
+#container {
+    display: flex; /*cote à cote*/
+    flex-direction: row;
+    flex-wrap: wrap; /*pas de retour à la ligne*/
+    justify-content: space-around;
+    width: 350px;
+    height: 150px;
+}
+
+h4{
+    font-size: 23px;
+    color: azure;
+}
