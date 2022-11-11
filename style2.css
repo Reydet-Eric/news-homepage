@@ -54,9 +54,16 @@ p
 
 
 
+/*main partie*/
+#center{
+    display: flex;
+    margin: 50px;
+}
 
-
-
+#l_block{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
