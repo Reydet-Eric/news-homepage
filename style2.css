@@ -55,33 +55,36 @@ p
 
 
 /*main partie*/
-#center{
+.center{
     display: flex;
     flex-direction: row;
-    margin: 50px;
-    gap: 20px;
-    justify-content: space-around;
 }
-
-#left_block{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.left_block{
+    width: 60%;
+    padding:20px;
 }
-
-#right_block{
+img{
+    width: 100%;
+}
+.l_down{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
+    flex-direction: row;
+}
+.l_block1{
+    width:70%;
+}
+.right_block{
     background-color: black;
-    color: white;
-    min-width: 200px;
-    justify-content: space-between;
+    color:white;
+    padding:20px;
+    margin:20px;
 }
-
-
-
+h2{
+    color:yellow;
+}
+li{
+    list-style-type: none;
+}
 
 
 
